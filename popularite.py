@@ -8,15 +8,14 @@ from kmeans_rapide import centre_le_plus_proche
 # Solution : on regroupe d'abord les couleurs proches en "cases" (on enlève les bits de poids faible)
 
 K = 12
-# Nombre de bits gardés par canal : 4 bits -> 16 niveaux par canal -> 16*16*16 = 4096 cases
 BITS = 4
 
 
 def popularite(pixels, K, bits=BITS):
-    # 1. On met tous les pixels sur une seule ligne : tableau de forme (Hauteur*Largeur, 3)
+    # 1. On met les pixels dans un tableau (nb_pixels, 3) et on les convertit en int64 pour éviter les débordements
     liste_pixels = pixels.reshape(-1, 3).astype(np.int64)
 
-    # 2. On enlève les bits de poids faible : par ex. 200 et 205 tombent dans la même case
+    # 2. On enlève les bits de poids faible pour regrouper les couleurs proches dans des "cases"
     decalage = 8 - bits
     cases = liste_pixels >> decalage
 
