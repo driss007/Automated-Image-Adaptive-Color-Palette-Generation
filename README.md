@@ -27,7 +27,7 @@ Le rapport est le notebook **`rapport.ipynb`**, avec sa version PDF **`rapport.p
 | `resultats/` | Images produites par les scripts (non versionnées) |
 
 Tous les scripts se lancent **depuis la racine du dépôt**, par exemple `python segmentation_auto.py`.
-Dépendances : `numpy`, `pillow`, `matplotlib`, `scikit-image`.
+Dépendances : `pip install -r requirements.txt` (numpy, pillow, matplotlib, scikit-image, jupyter).
 
 ## Qui a codé quoi
 
