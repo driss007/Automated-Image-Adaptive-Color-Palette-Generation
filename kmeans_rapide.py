@@ -108,7 +108,7 @@ if __name__ == "__main__":
     print(palette.round().astype(int))
 
     # 3. Enregistrement et affichage
-    Image.fromarray(resultat).save("kmeans_rapide_resultat.png")
+    Image.fromarray(resultat).save("resultats/kmeans_rapide_resultat.png")
     Image.fromarray(resultat).show()
 
 
