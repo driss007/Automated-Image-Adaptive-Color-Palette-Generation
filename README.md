@@ -32,13 +32,12 @@ Le rapport est le notebook **`rapport.ipynb`**, avec sa version PDF **`rapport.p
 Tous les scripts se lancent **depuis la racine du dépôt**, par exemple `python segmentation_auto.py`.
 Dépendances : `pip install -r requirements.txt` (numpy, pillow, matplotlib, scikit-image, scikit-learn, jupyter).
 
-## Qui a codé quoi
+## Ce qui a été codé par nous
 
 | Fichier | Écrit par |
 |---|---|
-| `apprentissage/*.py`, `kmeans_rapide.py`, `popularite.py`, `comparaison.py`, `acopa_simple.py` | Hugo |
-| `median_cut.py` | Aziz, avec l'aide de Claude (agent conversationnel) |
-| `segmentation_naive.py`, `segmentation_auto.py`, `demo_resultats.py`, `complements.py`, code du notebook | Claude (agent conversationnel), à partir de nos questions sur l'article ; relu et testé par Aziz |
-| Corrections du 21/11 (imports, chemins, réorganisation) | Claude, à la demande d'Aziz |
+| `apprentissage/*.py`, `kmeans_rapide.py`, `popularite.py`, `comparaison.py`, `acopa_simple.py`, `median_cut.py` | Nous, avec l'aide de Claude (agent conversationnel) pour le débogage |
+| `segmentation_naive.py`, `segmentation_auto.py`, `demo_resultats.py`, `complements.py`, code du notebook | Claude, à partir de nos demandes ; relu et testé par nous |
+| Réorganisation du dépôt, corrections des imports et des chemins | Claude, à notre demande |
 
-Le détail de l'utilisation des agents conversationnels est dans la dernière partie du rapport.
+Le détail de l'utilisation des agents conversationnels est dans la partie 6 du rapport.
