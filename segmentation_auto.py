@@ -1,10 +1,8 @@
 # --------------------------------------------------------------------------
 # Projet 4IM01 - Palette automatique de couleurs (article ACoPa, Delon et al. 2007)
 #
-# Qui a écrit ce fichier :
-#   Code écrit par Claude (agent conversationnel d'Anthropic) à partir de l'article
-#   et de la référence [10] (Delon, Desolneux, Lisani, Petro, "A nonparametric approach
-#   for histogram segmentation", IEEE TIP 2007), puis relu et testé par Aziz.
+# Référence du test : [10] Delon, Desolneux, Lisani, Petro, "A nonparametric approach
+# for histogram segmentation", IEEE TIP 2007.
 #
 # VERSION AUTOMATIQUE de la segmentation :
 #   on garde tout ce qui est dans segmentation_naive.py (HSI, PAV, FTC, hiérarchie

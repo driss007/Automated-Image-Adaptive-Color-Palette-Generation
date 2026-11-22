@@ -1,9 +1,7 @@
 # --------------------------------------------------------------------------
 # Projet 4IM01 - Palette automatique de couleurs (article ACoPa, Delon et al. 2007)
-# Qui a écrit ce fichier : Claude (agent conversationnel), à la demande d'Aziz,
-# pour compléter les parties de l'article qui manquaient.
 #
-# Trois compléments :
+# Trois compléments pour couvrir les parties de l'article qui manquaient :
 #   1. Figure 5 de l'article : les pixels de l'image qui appartiennent à chaque mode
 #      (de teinte, puis de saturation, puis d'intensité)
 #   2. Mean-Shift, la 4e méthode de comparaison de l'article (section 6)

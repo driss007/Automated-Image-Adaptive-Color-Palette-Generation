@@ -1,7 +1,6 @@
 # --------------------------------------------------------------------------
 # Projet 4IM01 - Palette automatique de couleurs
-# Auteur : Hugo (binôme) - algorithme de popularité.
-# Modification (Claude, 21/11) : chemin de l'image (images/), plus d'autre changement.
+# Algorithme de popularité.
 # --------------------------------------------------------------------------
 import numpy as np
 from PIL import Image

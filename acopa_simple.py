@@ -1,9 +1,7 @@
 # --------------------------------------------------------------------------
 # Projet 4IM01 - Palette automatique de couleurs
-# Auteur : Hugo (binôme) - première version "heuristique" d'ACoPa (lissage + creux),
+# Première version "heuristique" d'ACoPa (lissage + creux),
 # SANS le test statistique de l'article. Gardée comme point de comparaison.
-# Modifications (Claude, 21/11) : imports depuis segmentation_naive.py (ancien Segmentation.py)
-# et chemins images/ et resultats/.
 # --------------------------------------------------------------------------
 import numpy as np
 from PIL import Image

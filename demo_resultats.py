@@ -1,6 +1,5 @@
 # --------------------------------------------------------------------------
 # Projet 4IM01 - Palette automatique de couleurs
-# Qui a écrit ce fichier : Claude (agent conversationnel), à la demande d'Aziz.
 #
 # Affiche l'image finale des méthodes AUTOMATIQUES sur plusieurs photos :
 #   - ACoPa version naïve (seuil réglé à la main) + K-means RGB

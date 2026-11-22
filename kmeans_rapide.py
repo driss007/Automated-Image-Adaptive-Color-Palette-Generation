@@ -1,10 +1,6 @@
 # --------------------------------------------------------------------------
 # Projet 4IM01 - Palette automatique de couleurs
-# Auteur : Hugo (binôme) - K-means vectorisé avec NumPy.
-# Modifications (Claude, 21/11) : ajout de centres_aleatoires, centre_le_plus_proche,
-# image_depuis_labels et du paramètre "afficher", qui étaient importés par
-# popularite.py, comparaison.py et acopa_simple.py mais n'existaient pas ici
-# (ces trois scripts plantaient à l'import). kmeans accepte aussi une image (h, w, 3).
+# K-means vectorisé avec NumPy. kmeans accepte une liste de pixels (n, 3) ou une image (h, w, 3).
 # --------------------------------------------------------------------------
 import sys
 import time

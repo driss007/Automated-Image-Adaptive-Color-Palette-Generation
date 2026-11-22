@@ -1,8 +1,6 @@
 # --------------------------------------------------------------------------
 # Projet 4IM01 - Palette automatique de couleurs
-# Auteur : Hugo (binôme) - comparaison chiffrée des méthodes classiques.
-# Modifications (Claude, 21/11) : "median cut.py" renommé median_cut.py (import normal),
-# chemins images/ et resultats/.
+# Comparaison chiffrée (MSE, PSNR) des méthodes classiques.
 # --------------------------------------------------------------------------
 import numpy as np
 import matplotlib.pyplot as plt

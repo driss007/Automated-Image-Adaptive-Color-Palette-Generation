@@ -1,11 +1,6 @@
 # --------------------------------------------------------------------------
 # Projet 4IM01 - Palette automatique de couleurs (article ACoPa, Delon et al. 2007)
 #
-# Qui a écrit ce fichier :
-#   Code écrit par Claude (agent conversationnel d'Anthropic) à partir de nos
-#   questions sur l'article, puis relu, testé et commenté par Aziz.
-#   Les premières fonctions (HSI, PAV) existaient déjà dans Segmentation.py.
-#
 # VERSION NAÏVE de la segmentation :
 #   - on suit l'algorithme de l'article (HSI, cylindre des gris, Pool Adjacent
 #     Violators, algorithme FTC, découpage teinte -> saturation -> intensité)
