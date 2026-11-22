@@ -34,8 +34,6 @@ def methode_kmeans(pixels, K):
 
 
 def methode_median_cut_puis_kmeans(pixels, K):
-    # Idée : la palette du median cut sert de centres de départ pour K-means
-    # (même principe que ACoPa : une bonne initialisation, puis K-means pour affiner)
     palette = median_cut_module.median_cut(pixels, K)
     centres, labels = kmeans(pixels, palette, afficher=False)
     return image_depuis_labels(centres, labels)

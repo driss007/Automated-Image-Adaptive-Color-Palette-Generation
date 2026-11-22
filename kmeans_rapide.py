@@ -39,8 +39,6 @@ def centre_le_plus_proche(pixels, centres):
 
 
 def kmeans(pixels, centres, seuil=SEUIL, max_iter=MAX_ITER, afficher=True):
-    # pixels : tableau (nb_pixels, 3) ou image (h, w, 3), centres : tableau (K, 3)
-    # Si on donne une image, les labels sont rendus sous forme d'image (h, w)
     forme = pixels.shape[:-1]
     pixels = pixels.reshape(-1, 3).astype(np.float64)
     centres = centres.astype(np.float64)
