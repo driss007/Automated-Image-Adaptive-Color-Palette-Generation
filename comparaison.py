@@ -1,7 +1,3 @@
-# --------------------------------------------------------------------------
-# Projet 4IM01 - Palette automatique de couleurs
-# Comparaison chiffrée (MSE, PSNR) des méthodes classiques.
-# --------------------------------------------------------------------------
 import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image

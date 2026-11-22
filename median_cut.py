@@ -1,7 +1,3 @@
-# --------------------------------------------------------------------------
-# Projet 4IM01 - Palette automatique de couleurs
-# Median cut (Heckbert 1982) : on coupe récursivement les boîtes de couleurs à la médiane.
-# --------------------------------------------------------------------------
 import sys
 import numpy as np
 

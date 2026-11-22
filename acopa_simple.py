@@ -1,8 +1,3 @@
-# --------------------------------------------------------------------------
-# Projet 4IM01 - Palette automatique de couleurs
-# Première version "heuristique" d'ACoPa (lissage + creux),
-# SANS le test statistique de l'article. Gardée comme point de comparaison.
-# --------------------------------------------------------------------------
 import numpy as np
 from PIL import Image
 from skimage.metrics import peak_signal_noise_ratio

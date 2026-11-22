@@ -1,9 +1,3 @@
-# --------------------------------------------------------------------------
-# Projet 4IM01 - Palette automatique de couleurs
-# Script d'apprentissage du début du projet, gardé tel quel
-# pour montrer notre démarche (K-means "à la main" avec une double boucle sur les pixels).
-# A lancer depuis la racine du dépôt : python apprentissage/k-means.py
-# --------------------------------------------------------------------------
 import numpy as np
 from PIL import Image
 

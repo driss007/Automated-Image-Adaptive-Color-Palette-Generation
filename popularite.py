@@ -1,7 +1,3 @@
-# --------------------------------------------------------------------------
-# Projet 4IM01 - Palette automatique de couleurs
-# Algorithme de popularité.
-# --------------------------------------------------------------------------
 import numpy as np
 from PIL import Image
 from kmeans_rapide import centre_le_plus_proche

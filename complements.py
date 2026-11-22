@@ -1,15 +1,3 @@
-# --------------------------------------------------------------------------
-# Projet 4IM01 - Palette automatique de couleurs (article ACoPa, Delon et al. 2007)
-#
-# Trois compléments pour couvrir les parties de l'article qui manquaient :
-#   1. Figure 5 de l'article : les pixels de l'image qui appartiennent à chaque mode
-#      (de teinte, puis de saturation, puis d'intensité)
-#   2. Mean-Shift, la 4e méthode de comparaison de l'article (section 6)
-#   3. Nommer les couleurs de la palette (section 5 de l'article) avec deux
-#      dictionnaires : X11 et NBS/ISCC Centroids
-#
-# Lancer depuis la racine du dépôt : python complements.py
-# --------------------------------------------------------------------------
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.colors import CSS4_COLORS, to_rgb

@@ -1,7 +1,3 @@
-# --------------------------------------------------------------------------
-# Projet 4IM01 - Palette automatique de couleurs
-# K-means vectorisé avec NumPy. kmeans accepte une liste de pixels (n, 3) ou une image (h, w, 3).
-# --------------------------------------------------------------------------
 import sys
 import time
 import numpy as np

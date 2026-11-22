@@ -1,19 +1,3 @@
-# --------------------------------------------------------------------------
-# Projet 4IM01 - Palette automatique de couleurs (article ACoPa, Delon et al. 2007)
-#
-# Référence du test : [10] Delon, Desolneux, Lisani, Petro, "A nonparametric approach
-# for histogram segmentation", IEEE TIP 2007.
-#
-# VERSION AUTOMATIQUE de la segmentation :
-#   on garde tout ce qui est dans segmentation_naive.py (HSI, PAV, FTC, hiérarchie
-#   teinte -> saturation -> intensité) mais on remplace le seuil réglé à la main
-#   par le test statistique "a contrario" de l'article. Le seul paramètre est EPSILON,
-#   le nombre moyen de fausses détections qu'on accepte (EPSILON = 1 dans [10]).
-#   Ensuite les couleurs trouvées servent de centres de départ à K-means (annexe A),
-#   dans l'espace RGB ou dans l'espace CIE Lab.
-#
-# Lancer depuis la racine du dépôt : python segmentation_auto.py
-# --------------------------------------------------------------------------
 import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image

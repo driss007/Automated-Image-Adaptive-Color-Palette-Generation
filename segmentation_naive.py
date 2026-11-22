@@ -1,15 +1,3 @@
-# --------------------------------------------------------------------------
-# Projet 4IM01 - Palette automatique de couleurs (article ACoPa, Delon et al. 2007)
-#
-# VERSION NAÏVE de la segmentation :
-#   - on suit l'algorithme de l'article (HSI, cylindre des gris, Pool Adjacent
-#     Violators, algorithme FTC, découpage teinte -> saturation -> intensité)
-#   - MAIS le test "ce morceau d'histogramme est-il unimodal ?" est remplacé par
-#     un seuil qu'on règle à la main : SEUIL
-#   La version avec le test statistique de l'article est dans segmentation_auto.py
-#
-# Lancer depuis la racine du dépôt : python segmentation_naive.py
-# --------------------------------------------------------------------------
 import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
